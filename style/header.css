@@ -1,0 +1,55 @@
+
+#logOut{
+	border-radius: 5px;
+    border: solid 1px white;
+    font-size: 1em;
+    height: 2em;
+    float: right;
+    margin-top: -1.8em;
+    margin-right: .8em;
+}#logOut:hover{
+	background-color:white;
+	border:solid 1px black;
+	color:black;
+}
+
+#logIn{
+	border-radius:5px;
+	border:solid 1px white;
+	font-size:1.2em;
+    height:1.5em;
+    margin-top:1em;
+}
+
+.main-wrapper{
+    width: 100%;
+    height: 3em;
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+header nav ul li{
+	list-style:none;
+}
+
+header nav ul li a{
+    font-family: arial;
+    font-size: 1.2em;
+    color:#ffffff;
+    line-height: 2em;
+	text-decoration: none;
+	padding-left:.5em;
+	padding-right:.5em;
+}
+
+#logout{
+	position: relative;
+    font-size: 1em;
+    margin-bottom: 1em;
+    height: 2em;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.92);
+    border: solid 2px black;
+    float: right;
+    margin-top: -1.2em;
+    margin-right: 2em;
+}

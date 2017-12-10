@@ -1,0 +1,170 @@
+body{
+	display:block;
+	color:white;
+	font-family:sans-serif;
+	background: #0F98A1;
+}
+.navBar{
+	background: #16E1ED;
+	height:3em;
+	display:block;
+}
+
+#left{
+	background: #0F98A1;
+	width:100%;
+	height:50%;
+	display:block;
+	margin-top:3em;	
+	margin:auto;
+}
+
+#bike{
+	position:relative;
+	top:1.5em;
+	bottom:2em;
+	margin:auto;
+	width:80px;
+	height:80px;
+	background: #16E1ED;
+	border:solid  2px #ffffff;
+	border-radius: 50px;
+}#bikeimg{
+	
+	height:80px;	
+	width: 80px;	
+}#title{
+	font-size: 1.4em;
+	font-weight:500;
+	margin-top:2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+#addressDropdown{
+	background: #0F98A1;
+	margin:auto;
+	width:90%;
+	text-align: center;
+	padding-bottom:1em;
+	border-bottom: solid 1px white;
+}
+#mySelect, addressList{
+	width:70%;
+	height:2.5em;
+	font-size: 1em;
+	
+	
+}#bikeInfo{ 
+	height:19em;
+	width:85%;
+	margin:auto;
+	background: rgba(19, 107, 113, 0.92);
+	color:white;
+	border-radius: 25px;
+	padding-left:1em;
+}
+h3{
+	padding-top:1em;
+	font-size: 1.4em;
+	font-weight: 400;
+	margin-bottom:1.7em;
+	text-align: center;
+	text-transform: uppercase;
+}#station{
+	width:75%;
+	height:1.4em;
+	text-align: center;
+	font-style: italic;
+	margin:auto;
+	margin-top: -1.5em;
+	margin-bottom: .5em;
+	font-size: 1.4em;
+	font-weight:400;
+	border-bottom: solid .5px white;
+	
+}table{
+	margin:auto;
+	padding-right:10px;
+}
+td{
+	font-size:1.3em;
+	margin-bottom: .3em;
+}
+.icondiv{
+	width:20px;
+	height:20px;
+}
+.icon{
+	height:20px;
+	width:20px;
+	padding:5px;
+	background-color: rgb(0, 239, 255);
+	margin-right:.3em;
+}
+.attribute{
+	width:70%
+}
+.value{
+	height:30px;
+	float:left;
+}
+/*button{*/
+/*	position: relative;*/
+/*	font-size: 1em;*/
+/*	margin-bottom:1em;*/
+/*	height:2em;*/
+/*	color:#000000;*/
+/*	background: rgba(255, 255, 255, 0.92);*/
+/*	border: solid 2px black;*/
+/*	border-radius: 5px;*/
+/*}button:hover{*/
+/*	cursor: pointer;*/
+/*	background: #16E1ED;*/
+/*	border: solid 2px white;*/
+/*	border-radius: 5px;*/
+/*}*/
+
+#right{
+	background: #0F98A1;
+	width:90%;
+	margin:auto;
+}#googleMap{
+	height:inherit;
+	width:auto;
+	margin-top:2.5em;
+	margin-left:3.5em;
+}
+
+#footer{
+	background: #16E1ED;
+	height:4em;
+	display:block;
+	margin-top:500px;
+}
+iframe{
+	margin-top:3em;
+	width:100%;
+	height:30%;
+	border-style:none;
+	border-radius: 5px;
+}
+#locate{
+	position: relative;
+    font-size: 1em;
+    margin: auto;
+    margin-bottom: 1em;
+    height: 2em;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.92);
+    border: solid 2px black;
+    border-radius: 5px;
+    left: 60%;
+    margin-top: 1em;
+    width: 5em;
+}#locate.hover{
+    color: #ffffff;
+    background: black;
+    border: solid 2px white;
+    cursor:pointer;
+}
+	
